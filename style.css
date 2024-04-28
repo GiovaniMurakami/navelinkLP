@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: royalblue;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5vh;
+    height: 100vh;
+}
+
+.main {
+    width: 90vh;
+    margin: 5vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-height: 15vh;
+    margin-bottom: 10vh;
+}
+
+.logo{
+    max-width: 40vh;
+    height: auto;
+    margin-top: 5vw;
+}
+
+.wppButton{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    text-align: center;
+    font-size: 19px;
+    margin: 5vh;
+    color: #fff;
+    background-color: #25D366;
+    padding: 10px 30px;
+    border: solid #0066cc00 2px;
+    box-shadow: rgb(72, 202, 228) 0px 0px 35px -3px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    margin: 0 auto;
+    width: 20vh;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    height: 5vh;
+}
+
+.wppButton:hover{
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #25d366;
+border: solid 2px #25d366;
+}
+
+.btn{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.promoTitle, .promoText{
+    font-size: 3vh;
+    margin: 2vh;
+    text-align: center;
+    color: blue;
+}
+
+.promoImg{
+    height: 30vh;
+    margin-top: 5vw;
+}

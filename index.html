@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>A melhor Internet</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+    </head>
+    <body>
+        <nav>
+            <img src="./logo.png" alt="logoNavelink" class="logo" />
+        </nav>
+        <div class="container">
+            <div class="main">
+                <div class="imgContainer">
+                    <div class="promoImg">teste</div>
+                </div>
+                <div class="textContainer">
+                    <h1 class="promoTitle">
+                        Contrate a Navelinknet 150 Megas + HBO Por apenas
+                        R$99,80 mensais!!!
+                    </h1>
+                    <p class="promoText">
+                        Clique no botão abaixo e fale conosco!
+                    </p>
+                    <div class="wppButton" onclick="goToWpp()">
+                        <div class="btn">Quero contratar!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function goToWpp() {
+            window.location.href =
+                "https://api.whatsapp.com/send/?phone=5519998601329&text=Quero%20contratar%20o%20plano%20de%20150%20Megas%20+%20HBO";
+        }
+    </script>
+</html>
