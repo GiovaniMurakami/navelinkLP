@@ -66,6 +66,9 @@ nav{
     transition : 1000ms;
     transform: translateY(0);
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     width: 20vh;
     flex-direction: row;
@@ -98,6 +101,12 @@ border: solid 2px #25d366;
 .promoImg{
     height: 30vh;
     margin-top: 5vw;
+}
+
+.wppImg img{
+    padding-top: .5vh;
+    max-width: 5vh;
+    height: auto;
 }
 
 .benefits {
