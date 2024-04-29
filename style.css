@@ -221,6 +221,7 @@ footer p {
     border: 1px solid royalblue;
     border-radius: 15px;
     padding: 2vh;
+    width: 20vh;
     color: white;
     background-color: royalblue;
     display: flex;
@@ -269,7 +270,7 @@ footer p {
 
 .getPlan{
     font-family: Roboto, sans-serif;
-    font-weight: 0;
+    font-weight: bold;
     margin-top: 1vh;
     font-size: 14px;
     color: #1227b0;
@@ -293,4 +294,9 @@ footer p {
     background-color: #fff;
     color: #0066cc;
     border: solid 2px #0066cc;
+}
+
+.planSpeed {
+    border-bottom: 1px solid white;
+    position: relative; /* Adicionando posição relativa */
 }
