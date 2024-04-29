@@ -111,14 +111,19 @@ border: solid 2px #25d366;
 
 .cardHolder{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .card{
     border: 1px solid none;
     background-color: white;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 2.5vh;
     font-size: large;
     font-weight: bold;
@@ -127,6 +132,15 @@ border: solid 2px #25d366;
     padding: 5vh;
     text-align: center;
     flex-wrap: wrap;
+}
+
+.card img {
+    max-width: 10vh;
+}
+
+.card p{
+    border-top: 2vh;
+    border-top: 1px solid royalblue;
 }
 
 footer {
