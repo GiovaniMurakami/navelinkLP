@@ -120,7 +120,7 @@ border: solid 2px #25d366;
 .card{
     border: 1px solid none;
     background-color: white;
-    height: 25vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,13 +139,12 @@ border: solid 2px #25d366;
 }
 
 .card h3{
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 
 .card p{
     font-size: 2vh;
     border-top: 2vh;
-    border-top: 1px solid royalblue;
 }
 
 footer {
