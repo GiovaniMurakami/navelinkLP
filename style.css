@@ -225,7 +225,7 @@ footer p {
     color: white;
     background-color: royalblue;
     display: flex;
-    margin: 1vh;
+    margin: .5vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -241,6 +241,7 @@ footer p {
 
 .planTitle{
     font-weight: bold;
+    text-align: center;
 }
 
 .plansTitle{
