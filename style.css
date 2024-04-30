@@ -42,8 +42,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    max-height: 15vh;
-    margin-bottom: 10vh;
+    height: 10vh;
 }
 
 .logo{
