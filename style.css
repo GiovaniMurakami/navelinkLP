@@ -17,16 +17,17 @@ html {
 
 .container {
     display: flex;
+    margin: 2vh;
     justify-content: center;
     align-items: center;
 }
 
 .main {
     width: 90vh;
-    margin: 2vw;
+    margin: 2vh;
     min-height: 125vh;
     max-height: 700vh;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -164,8 +165,7 @@ border: solid 2px #25d366;
 }
 
 footer {
-    height: 10vh;
-    margin: 0 1rem;
+    margin: 2vh;
 }
   
 footer p {
