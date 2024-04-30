@@ -260,7 +260,10 @@
         for (let index = 0; index < li.length; index++) {
             li[index].addEventListener("click", (e) => {
                 let clickedLi;
-                if (e.target.classList.contains("question")) {
+                if (
+                    e.target.classList.contains("question") ||
+                    e.target.classList.contains("fa-chevron-down")
+                ) {
                     clickedLi = e.target.parentElement.parentElement;
                 }
                 clickedLi.classList.toggle("showAnswer");
