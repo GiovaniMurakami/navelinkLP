@@ -369,8 +369,8 @@ i{
 .accordion-title{
     font-size: 2rem;
     font-weight: bold;
+    margin: 2vh;
     text-align: center;
-    margin-top: 2vh;
     color: white;
 }
 
