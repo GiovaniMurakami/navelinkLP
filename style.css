@@ -41,11 +41,8 @@ html {
 nav{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-}
-
-nav img{
-    margin: 2vh;
+    align-items: center;
+    margin-bottom: 2vh;
 }
 
 .logo{
