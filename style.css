@@ -187,6 +187,7 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
 .citiesTitle{
     margin: 2vh;
 }
@@ -290,11 +291,6 @@ i{
     margin-right: 1vh;
 }
 
-.planSpeed {
-    border-bottom: 1px solid white;
-    position: relative; /* Adicionando posição relativa */
-}
-
 .faq{
     background-color: #25D366;
     border-bottom-left-radius: 15px;
@@ -309,7 +305,6 @@ i{
     flex-direction: column;
     align-items: center;
     min-height: 30vh;
-    max-height: 40vh;
     overflow-y: auto;
 }
 
