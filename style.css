@@ -214,87 +214,69 @@ footer p {
 .plans{
     width: 100%;
     margin-top: 2vh;
-    height: 100%;
-}
-
-.plan {
-    border: 1px solid royalblue;
-    border-radius: 15px;
-    padding: 2vh;
-    width: 20vh;
-    color: white;
-    background-color: royalblue;
     display: flex;
-    margin: .5vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.plansHolder{
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin: 2vh;
-    align-items: center;
-}
-
-.planTitle{
-    font-weight: bold;
-    text-align: center;
-}
-
-.plansTitle{
-    text-align: center;
-    margin-top: 2vh;
-    color: black;
-}
-
-.wifi{
-    margin-top: 1vh;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
+    height: 100%;
     justify-content: center;
-    flex-direction: column;
 }
 
-.price{
-    margin-top: 1vh;
-    font-weight: bold;
-}
-
-.wifi img{
-    width: 3vh;
-    height: auto;
-}
-
-.getPlan{
-    font-family: Roboto, sans-serif;
-    font-weight: bold;
-    margin-top: 1vh;
-    font-size: 14px;
-    color: #1227b0;
-    background-color: #ffffff;
-    padding: 10px 30px;
-    border: solid #1823ba 2px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+.wrapper {
+    width: 30vh;
+    padding: 1vh;
+    margin: 2vh;
+    background-color: #0066cc;
     border-radius: 15px;
-    transition : 0ms;
-    transform: translateY(0);
+    text-align: center;
+    border: 1px solid royalblue;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.planValue{
+    font-size: 2.5rem;
+    margin-top: 1vh;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+}
+
+span{
+    font-size: 3rem;
+    margin-right: 1vh;
+}
+
+.hireUs{
+    width: 90%;
+    background-color: transparent;
+    padding: 1vh;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: large;
     cursor: pointer;
 }
 
-.getPlan:hover{
-    transition : 1500ms;
-    padding: 10px 60px;
-    transform : translateY(-0px);
-    background-color: #fff;
-    color: #0066cc;
-    border: solid 2px #0066cc;
+.hireUs:hover{
+    background-color: white;
+    transition: all 0.5s;
+    color: royalblue;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    margin: 1vh 2vh;
+}
+
+ul li {
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+i{
+    margin-right: 1vh;
 }
 
 .planSpeed {
