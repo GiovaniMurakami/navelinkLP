@@ -379,3 +379,7 @@ i{
 .accordion-text li.showAnswer .answer{
     display: block;
 }
+
+li.showAnswer .questionArrow .fa-chevron-down{
+    transform: rotate(180deg);
+}
