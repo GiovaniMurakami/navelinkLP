@@ -245,8 +245,8 @@ footer p {
 }
 
 .planValue{
-    font-size: 2.5rem;
-    margin-top: 1vh;
+    font-size: 3rem;
+    font-weight: bold;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -254,7 +254,7 @@ footer p {
 }
 
 span{
-    font-size: 3rem;
+    font-size: 1.8rem;
     margin-right: 1vh;
 }
 
