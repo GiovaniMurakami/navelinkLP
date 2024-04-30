@@ -44,6 +44,10 @@ nav{
     align-items: flex-start;
 }
 
+nav img{
+    margin: 2vh;
+}
+
 .logo{
     max-width: 40vh;
     height: auto;
