@@ -19,14 +19,14 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3.5vh;
+    margin: 2vh;
     min-height: 100vh;
     max-height: 600vh;
 }
 
 .main {
     width: 90vh;
-    margin: 5vw;
+    margin: 2vw;
     min-height: 125vh;
     max-height: 700vh;
     margin-bottom: 15vh;
@@ -42,14 +42,12 @@ nav{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin: 2vh;
-    height: 10vh;
 }
 
 .logo{
     max-width: 40vh;
     height: auto;
-    margin-top: 5vw;
+    margin-top: 5vh;
 }
 
 .wppButton{
