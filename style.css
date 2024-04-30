@@ -21,7 +21,7 @@ html {
     align-items: center;
     margin: 3.5vh;
     min-height: 100vh;
-    max-height: 500vh;
+    max-height: 600vh;
 }
 
 .main {
@@ -216,6 +216,7 @@ footer p {
     margin-top: 2vh;
     text-align: center;
     height: 100%;
+    margin-bottom: 2vh;
 }
 
 .plansHolder{
@@ -274,13 +275,13 @@ span{
     color: royalblue;
 }
 
-ul{
+.benefitsHolder {
     list-style: none;
     text-align: left;
     margin: 1vh 2vh;
 }
 
-ul li {
+.benefitsItem {
     margin-top: 1vh;
     cursor: pointer;
 }
@@ -292,4 +293,89 @@ i{
 .planSpeed {
     border-bottom: 1px solid white;
     position: relative; /* Adicionando posição relativa */
+}
+
+.faq{
+    background-color: #25D366;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.faq-text{
+    margin: 2vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    overflow-y: auto;
+}
+
+.questionHolder{
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+.questionArrow{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: 1vh 0px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.fa-chevron-down{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.accordion-text li:hover .questionArrow .question,
+.accordion-text li:hover .questionArrow .fa-chevron-down{
+    color: rgb(89, 116, 197);
+    transition: all 0.5s ease-in-out;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.accordion-text{
+    width: 100%;
+}
+
+.answer{
+    width: 92%;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.accordion-title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2vh;
+    color: white;
+}
+
+.faq-text::-webkit-scrollbar{
+    display: none;
+}
+
+.accordion-text li.showAnswer .answer{
+    display: block;
 }

@@ -14,6 +14,10 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <nav>
@@ -98,13 +102,15 @@
                             <button class="hireUs" onclick="hireUs()">
                                 Assinar
                             </button>
-                            <ul>
-                                <li><i class="fas fa-check"></i> 90 MB</li>
-                                <li>
+                            <ul class="benefitsHolder">
+                                <li class="benefitsItem">
+                                    <i class="fas fa-check"></i> 90 MB
+                                </li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> Suporte
                                     Especializado
                                 </li>
-                                <li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> 2 Apps Standard
                                 </li>
                             </ul>
@@ -115,13 +121,15 @@
                             <button class="hireUs" onclick="hireUs()">
                                 Assinar
                             </button>
-                            <ul>
-                                <li><i class="fas fa-check"></i> 150 MB</li>
-                                <li>
+                            <ul class="benefitsHolder">
+                                <li class="benefitsItem">
+                                    <i class="fas fa-check"></i> 150 MB
+                                </li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> Suporte
                                     Especializado
                                 </li>
-                                <li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> 2 Apps Standard
                                 </li>
                             </ul>
@@ -132,13 +140,15 @@
                             <button class="hireUs" onclick="hireUs()">
                                 Assinar
                             </button>
-                            <ul>
-                                <li><i class="fas fa-check"></i> 250 MB</li>
-                                <li>
+                            <ul class="benefitsHolder">
+                                <li class="benefitsItem">
+                                    <i class="fas fa-check"></i> 250 MB
+                                </li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> Suporte
                                     Especializado
                                 </li>
-                                <li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> 2 Apps Standard
                                 </li>
                             </ul>
@@ -149,13 +159,15 @@
                             <button class="hireUs" onclick="hireUs()">
                                 Assinar
                             </button>
-                            <ul>
-                                <li><i class="fas fa-check"></i> 350 MB</li>
-                                <li>
+                            <ul class="benefitsHolder">
+                                <li class="benefitsItem">
+                                    <i class="fas fa-check"></i> 350 MB
+                                </li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> Suporte
                                     Especializado
                                 </li>
-                                <li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> 2 Apps Standard
                                 </li>
                             </ul>
@@ -166,20 +178,62 @@
                             <button class="hireUs" onclick="hireUs()">
                                 Assinar
                             </button>
-                            <ul>
-                                <li><i class="fas fa-check"></i> 500 MB</li>
-                                <li>
+                            <ul class="benefitsHolder">
+                                <li class="benefitsItem">
+                                    <i class="fas fa-check"></i> 500 MB
+                                </li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> Suporte
                                     Especializado
                                 </li>
-                                <li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> 2 Apps Standard
                                 </li>
-                                <li>
+                                <li class="benefitsItem">
                                     <i class="fas fa-check"></i> 1 App Premium
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="accordion-text">
+                        <div class="accordion-title">Perguntas Frequentes</div>
+                        <ul class="faq-text">
+                            <li class="questionHolder">
+                                <div class="questionArrow">
+                                    <span class="question">Pergunta 1?</span>
+                                    <i class="fas fa-solid fa-chevron-down"></i>
+                                </div>
+                                <p class="answer">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                </p>
+                                <span class="line"></span>
+                            </li>
+                            <li class="questionHolder">
+                                <div class="questionArrow">
+                                    <span class="question">Pergunta 2?</span>
+                                    <i class="fas fa-solid fa-chevron-down"></i>
+                                </div>
+                                <p class="answer">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                </p>
+                                <span class="line"></span>
+                            </li>
+                            <li class="questionHolder">
+                                <div class="questionArrow">
+                                    <span class="question">Pergunta 3?</span>
+                                    <i class="fas fa-solid fa-chevron-down"></i>
+                                </div>
+                                <p class="answer">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                </p>
+                                <span class="line"></span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -199,6 +253,18 @@
         function hireUs() {
             window.location.href =
                 "https://api.whatsapp.com/send/?phone=5519998601329&text=Quero%20contratar";
+        }
+    </script>
+    <script>
+        let li = document.querySelectorAll(".questionHolder");
+        for (let index = 0; index < li.length; index++) {
+            li[index].addEventListener("click", (e) => {
+                let clickedLi;
+                if (e.target.classList.contains("question")) {
+                    clickedLi = e.target.parentElement.parentElement;
+                }
+                clickedLi.classList.toggle("showAnswer");
+            });
         }
     </script>
 </html>
