@@ -237,9 +237,13 @@ footer p {
     background-color: #0066cc;
     border-radius: 15px;
     text-align: center;
-    border-left: 9px solid #25D366;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+    transition: border-color 0.3s ease;
     color: white;
+}
+
+.wrapper:hover{
+    border-left: 9px solid #25D366;
 }
 
 .planValue{
