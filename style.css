@@ -19,7 +19,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2vh;
+    margin: 3vh;
     min-height: 100vh;
     max-height: 600vh;
 }
