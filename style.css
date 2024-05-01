@@ -53,8 +53,11 @@ nav{
     font-family: Roboto, sans-serif;
     font-weight: 0;
     text-align: center;
-    font-size: 19px;
-    margin: 5vh;
+    height: 5vh;
+    font-weight: bold;
+    width: 20vh;
+    font-size: 1.9vh;
+    margin: 0 auto;
     color: #fff;
     background-color: #25D366;
     padding: 10px 30px;
@@ -67,21 +70,16 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    width: 20vh;
-    flex-direction: row;
-    align-items: center;
     cursor: pointer;
-    height: 5vh;
 }
 
 .wppButton:hover{
-transition : 1000ms;
-padding: 10px 50px;
-transform : translateY(-0px);
-background-color: #fff;
-color: #25d366;
-border: solid 2px #25d366;
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #25d366;
+    border: solid 2px #25d366;
 }
 
 .btn{
@@ -140,7 +138,7 @@ border: solid 2px #25d366;
     height: 30vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: 2.5vh;
     font-size: large;
     font-weight: bold;
@@ -229,14 +227,14 @@ footer p {
 }
 
 .wrapper {
-    width: 32.5vh;
+    width: 28.5vh;
+    height: auto;
     padding: 1vh;
     margin: 2vh;
     background-color: #0066cc;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
-    transition: border-color 0.3s ease;
     color: white;
 }
 
@@ -249,6 +247,7 @@ footer p {
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
