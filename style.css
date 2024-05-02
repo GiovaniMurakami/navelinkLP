@@ -17,7 +17,6 @@ html {
 
 .container {
     display: flex;
-    margin: 2vh;
     justify-content: center;
     align-items: center;
 }
