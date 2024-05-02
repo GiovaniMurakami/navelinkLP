@@ -110,12 +110,6 @@ nav{
     color: white;
 }
 
-.citiesTitle{
-    text-align: center;
-    margin-top: 2vh;
-    color: black;
-}
-
 .benefits {
     background-color: #25d366;
     width: 100%;
@@ -132,7 +126,6 @@ nav{
 }
 
 .card{
-    border: 1px solid none;
     background-color: white;
     height: 30vh;
     display: flex;
@@ -140,10 +133,9 @@ nav{
     justify-content: space-around;
     margin: 2.5vh;
     font-size: large;
-    font-weight: bold;
     width: 20vh;
     border-radius: 15px;
-    padding: 3vh;
+    padding: 2vh;
     text-align: center;
     flex-direction: column;
 }
@@ -162,47 +154,12 @@ nav{
 }
 
 footer {
-    margin: 2vh;
+    margin: 3vh;
 }
   
 footer p {
     color: white;
     text-align: center;
-}
-
-.cities{
-    margin: 5vh;
-    width: 100%;
-    margin-top: 2vh;
-    height: 100%;
-}
-
-.citiesHolder{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.citiesTitle{
-    margin: 2vh;
-}
-
-.city{
-    text-align: center;
-    border: 1px solid none;
-    width: 30vh;
-    padding: .5vh;
-    border-radius: 15px;
-    margin: 1vh;
-    display: flex;
-    align-items: center;
-}
-
-.city img {
-    width: 5vh;
-    height: auto;
 }
 
 .plans{
